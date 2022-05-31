@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phrase {
+  background-color: aliceblue;
+  padding: 22px;
+  border-radius: 20px;
+}
+
+.button {
+  display: block;
+  aspect-ratio: 1;
+  width: 35px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 1px 1px 6px 0 #000a00;
+  transition: box-shadow 200ms ease;
+  position: relative;
+  left: 85%;
+}
+
+.button:active {
+  box-shadow: 1px 1px 6px 0 #000a00;
+  transition: box-shadow 200ms ease;
+}
+
+.svg-inline--fa {
+  height: 1.3em;
+}
+
+.icon {
+  color: aliceblue;
+}
