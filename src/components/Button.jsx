@@ -1,9 +1,11 @@
 import React  from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBookOpenReader } from '@fortawesome/free-solid-svg-icons'
 
-const Button = ({styleButton, icon, clickButton}) => {
+const Button = ({styleButton, clickButton}) => {
   return (
     <button style={styleButton} className='button' onClick={clickButton}> 
-      <i className='icon'>{icon} a</i>
+      <FontAwesomeIcon icon={faBookOpenReader} /> 
     </button>
   )
 }
